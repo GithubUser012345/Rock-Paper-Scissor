@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Papre-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissor Game</h1>
+    <div class="column">
+        <div class="symbols fixed-column">
+            <div class="symbol" id="rock"><img src="images/rock.jpg" class="img"></div>
+            <div class="symbol" id="paper"><img src="images/paper.jpg"></div>
+            <div class="symbol" id="scissor"><img src="images/scissor.jpg"></div>
+        </div>
+        <div class="result fluid-column">
+            <div class="opt hide">
+                <div class="userOpt"></div>
+                <p>V/S</p>
+                <div class="compOpt"></div>
+            </div>
+            <div class="scores">
+                <div class="userScore">
+                    <p id="p1">0</p>
+                    <p>USER WIN</p>
+                </div>
+                <div class="compScore">
+                    <p>0</p>
+                    <p>COMPUTER WIN</p>
+                </div>
+                <div class="draw">
+                    <p>0</p>
+                    <p>DRAWS</p>
+                </div>
+            </div>
+            <div class="track">
+                <p>Total Number Of Games: 0 </p>
+                <button class="btn"> RESTART </button>
+            </div>
+        </div>
+    </div>
+    <p class="text">Welcome!</p>   
+    
+<script src="file.js"></script>
+</body>
+</html>
