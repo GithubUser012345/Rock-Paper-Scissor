@@ -129,3 +129,35 @@ img{
     border-top: 0.3rem solid #03045e;
     color: black;
 }
+
+/* user choice image */
+.user_hide, .comp_hide{
+    display: none;
+}
+.user_rk, .comp_k{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 15%;
+    background-image: url('images/rock.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user_pr, .comp_pr{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 15%;
+    background-image: url('images/paper.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user_sr, .comp_sr{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 15%;
+    background-image: url('images/scissor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
