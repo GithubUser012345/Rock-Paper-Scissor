@@ -28,25 +28,27 @@
             </div>
             <div class="scores">
                 <div class="userScore">
-                    <p id="p1">0</p>
+                    <p id="userCount">0</p>
                     <p>USER WIN</p>
                 </div>
                 <div class="compScore">
-                    <p>0</p>
+                    <p id="compCount">0</p>
                     <p>COMPUTER WIN</p>
                 </div>
                 <div class="draw">
-                    <p>0</p>
+                    <p id="drawCount">0</p>
                     <p>DRAWS</p>
                 </div>
             </div>
             <div class="track">
-                <p>Total Number Of Games: 0 </p>
+                <p>Total Number Of Games: <span id="totalCount">0 </span></p>
                 <button class="btn"> RESTART </button>
             </div>
         </div>
     </div>
-    <p class="text">Welcome!</p>   
+    <div id="textContent">
+        <button class="text">play your turn!</button>
+    </div>   
     
     <script src="file.js"></script>
 </body>

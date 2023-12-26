@@ -119,22 +119,28 @@ img{
 }
 
 /* final text display */
-
-.text{
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
-    background-color: gray;
-    font-size: 2rem;
+#textContent{
+    height: 10vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top: 0.3rem solid #03045e;
-    color: black;
+}
+.text{
+    background-color: #03045e;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
 }
 
 /* user choice image */
 .user_hide, .comp_hide{
     display: none;
 }
-.user_rk, .comp_k{
+.user_rk, .comp_rk{
     height: 30vh;
     width: 15vw;
     border-radius: 15%;
